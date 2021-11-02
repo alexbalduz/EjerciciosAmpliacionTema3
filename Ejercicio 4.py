@@ -13,7 +13,7 @@ def staircase(n):
     # Write your code here
     for fila in range(n):
         for columna in range(fila + 1):
-            print("*")
+            print("*", end = "")
         print()
 
     if __name__ == '__main__':
