@@ -13,7 +13,8 @@ import numpy as np
 #
 def simpleArraySum(ar):
     # Write your code here
-    
+    matriz = np.ar
+    np.sum(matriz)
 
     if __name__ == '__main__':
         fptr = open(os.environ['OUTPUT_PATH'], 'w')
