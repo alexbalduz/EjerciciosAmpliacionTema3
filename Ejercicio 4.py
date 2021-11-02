@@ -11,6 +11,6 @@ import sys
 #
 def staircase(n):
     # Write your code here
-if __name__ == '__main__':
-n = int(input().strip())
-staircase(n)
+    if __name__ == '__main__':
+        n = int(input().strip())
+        staircase(n)
