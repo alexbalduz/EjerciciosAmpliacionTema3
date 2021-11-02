@@ -14,6 +14,7 @@ def staircase(n):
     for fila in range(n):
         for columna in range(fila + 1):
             print("*")
+        print()
 
     if __name__ == '__main__':
         n = int(input().strip())
