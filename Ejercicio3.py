@@ -4,6 +4,7 @@ import os
 import random
 import re
 import sys
+import numpy as np
 #
 # Complete the 'aVeryBigSum' function below.
 #
@@ -12,6 +13,9 @@ import sys
 #
 def aVeryBigSum(ar):
     # Write your code here
+    n = int(input("Ingresa el tamaño de la matriz"))
+    matriz = np.ar[n]
+    np.sum(matriz)
     if __name__ == '__main__':
         fptr = open(os.environ['OUTPUT_PATH'], 'w')
         ar_count = int(input().strip())
