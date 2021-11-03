@@ -13,7 +13,9 @@ import sys
 def gameOfStones(n):
     # Write your code here
     if n%7 == 1 or n%7 == 0:
-        
+        return 'Second'
+    else:
+        return 'First'
 
     if __name__ == '__main__':
         fptr = open(os.environ['OUTPUT_PATH'], 'w')
