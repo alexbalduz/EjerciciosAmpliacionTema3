@@ -13,7 +13,8 @@ import numpy as np
 #
 def simpleArraySum(ar):
     # Write your code here
-    matriz = np.ar
+    n = int(input("Ingresa el tamaño de la matriz"))
+    matriz = np.ar[n]
     np.sum(matriz)
 
     if __name__ == '__main__':
