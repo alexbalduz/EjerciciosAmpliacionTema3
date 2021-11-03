@@ -12,6 +12,9 @@ import sys
 #
 def gameOfStones(n):
     # Write your code here
+    if n%7 == 1 or n%7 == 0:
+        
+
     if __name__ == '__main__':
         fptr = open(os.environ['OUTPUT_PATH'], 'w')
         t = int(input().strip())
