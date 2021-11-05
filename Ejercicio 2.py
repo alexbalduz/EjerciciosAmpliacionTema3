@@ -21,7 +21,8 @@ def compareTriplets(a, b):
             alice+=1
         elif(a[i]<b[i]):
             bob+=1
-    return (alice, bob)
+    arr = [alice, bob]
+    return arr
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
