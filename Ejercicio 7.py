@@ -15,7 +15,7 @@ def gradingStudents(grades):
         if grades[i] > 40:
             if grades[i] % 5 != 0:
                 for j in range(1, 5):
-                    if grades[i] + j % 5 == 0:
+                    if (grades[i] + j) % 5 == 0:
                         if j < 3:
                             grades[i] = grades[i] + j
 if __name__ == '__main__':
