@@ -17,7 +17,7 @@ import sys
 #
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     # Write your code here
-    count_Apples = 0
+    count_Apples= 0
     count_Oranges= 0
 
     for i in range(len(apples)):
