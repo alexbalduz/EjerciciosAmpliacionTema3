@@ -4,7 +4,6 @@ import os
 import random
 import re
 import sys
-import numpy as np
 #
 # Complete the 'simpleArraySum' function below.
 #
@@ -14,7 +13,8 @@ import numpy as np
 def simpleArraySum(ar):
     # Write your code here
     x=0
-    
+    for i in range(0,ar):
+        x = x + ar[i]
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
