@@ -15,7 +15,7 @@ def simpleArraySum(ar):
     x=0
     for i in range(0,ar):
         x = x + ar[i]
-
+    return x
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     ar_count = int(input().strip())
