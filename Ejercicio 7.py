@@ -18,6 +18,7 @@ def gradingStudents(grades):
                     if (grades[i] + j) % 5 == 0:
                         if j < 3:
                             grades[i] = grades[i] + j
+    return grades
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     grades_count = int(input().strip())
