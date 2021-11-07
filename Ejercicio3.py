@@ -4,7 +4,6 @@ import os
 import random
 import re
 import sys
-import numpy as np
 #
 # Complete the 'aVeryBigSum' function below.
 #
