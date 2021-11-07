@@ -13,6 +13,8 @@ import numpy as np
 #
 def simpleArraySum(ar):
     # Write your code here
+    x=0
+    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
