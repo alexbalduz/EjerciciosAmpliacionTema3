@@ -12,10 +12,10 @@ import sys
 #
 def aVeryBigSum(ar):
     # Write your code here
-    x=0
+    num=0
     for i in range(0,len(ar)):
-        x= x + ar[i]
-    return x
+        num= num + ar[i]
+    return num
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     ar_count = int(input().strip())
